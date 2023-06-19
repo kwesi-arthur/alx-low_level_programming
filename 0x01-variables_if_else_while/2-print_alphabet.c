@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <ctype.h>
+
 /**
 * Main - print alphabets in lowercase
 *
 *Return: return (0)
 */
+
 int main(void)
 {
 char alp[26] = "abcdefghijklmnopqrstuvwxyz";
