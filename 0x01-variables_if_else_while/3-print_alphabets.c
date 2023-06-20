@@ -11,6 +11,9 @@ char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMONPQRSTUVWXYZ";
 int i;
 
 for (i = 0; i < 52; i++)
+/* 
+thsi main is starting"
+*/
 {
 putchar(alp[i]);
 }
