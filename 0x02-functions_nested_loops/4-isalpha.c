@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  *int _isalpha(int c) - checks for alphabetic character
@@ -10,18 +10,9 @@
 
 int _isalpha(int c)
 {
-if (isalpha(int c) == true)
-{
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'z'))
 return (1);
-} ||
-if (islower(int c) == true)
-{
-return (1); ||
-if (isupper(int c) == true)
-{
-return (1);
-}
 else
-{
 return (0);
 }
+
