@@ -10,12 +10,19 @@
 
 void print_to_98(int n)
 {
-print_to_98(1);
-
-for (n = 1; n <= 98; n++)
-{
-_putchar(',');
-_putchar(' ');
-
-}
+  if (n > 98)
+    {
+      for (; n > 98; n--)
+	{
+	  printf("%d, ", n);
+	}
+    }
+  else if (n < 98)
+    {
+      for (; n < 98; n++)
+	{
+	  printf("%d, ", n);
+	}
+    }
+  printf("%d\n", n);
 }
