@@ -1,0 +1,15 @@
+#include "main.h"
+
+/**
+ * mul - multiplies two integers
+ *
+ * @a, @b: the integers
+ *
+ * Return: Always 0 (succeess)
+ */
+
+int mul(int a, int b)
+{
+int results = a * b;
+return (results);
+}
